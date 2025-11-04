@@ -2498,6 +2498,19 @@ OUTREACH EVENTS
 
 
 
+/* Tighten spacing inside outreach cards */
+.outreach-card {
+  padding: 20px 20px 10px 20px; /* reduce bottom padding */
+}
+
+.outreach-card p {
+  margin-bottom: 8px; /* tighten paragraph spacing */
+}
+
+.outreach-card .btn-event {
+  margin-bottom: 0;
+  display: inline-block;
+}
 
 /*############################## Writing & Creativity ##########################################*/
 .writing-grid {
